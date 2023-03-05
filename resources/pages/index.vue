@@ -1,3 +1,7 @@
+<script setup lang="ts">
+    const name = useProperty('security.user.name');
+</script>
+
 <template>
-    Hello World
+    Hello {{ name }}
 </template>
